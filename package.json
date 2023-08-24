@@ -1,0 +1,19 @@
+{
+  "name": "jest-class",
+  "version": "1.0.0",
+  "description": "class",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "jest"
+  },
+  "author": "vanesascode",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transformIgnorePatterns": []
+  }
+}

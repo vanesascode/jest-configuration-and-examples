@@ -1,5 +1,9 @@
 const mathOperations = require('../src/maths');
 
+
+
+//The describe method is used to group related tests together.
+
 describe("Calculator Tests", () => {
   test("Addition of 2 numbers", () => {
     // arrange and act
@@ -33,3 +37,6 @@ describe("Calculator Tests", () => {
     expect(result).toBe(3);
   });
 })
+
+
+

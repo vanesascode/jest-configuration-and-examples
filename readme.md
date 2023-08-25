@@ -4,7 +4,9 @@
 
 `Jest` is a powerful and feature-rich testing framework that provides an excellent developer experience. It is easy to set up and configure, includes useful features like mocking and snapshot testing, and performs well in terms of speed and efficiency.
 
-🔹 ## Prepare your VSCode:
+---
+
+## 🔹 Prepare your VSCode:
 
 - [x] `npm init` (`-y` if we want to skip the questions) to create a package.json file
 
@@ -12,7 +14,9 @@
 
 - [x] `npm i` (to install all dependencies from package.json)
 
-🔹 ## Prepare the files:
+---
+
+## 🔹 Prepare the files:
 
 when you create your functions, you then have to `export` them. E.g.:
 
@@ -28,7 +32,9 @@ const { sum, fromEuroToDollar, fromDollarToJapanYen, fromYenToPounds } = require
 
 ```
 
-🔹 ## To run the tests:
+---
+
+## 🔹 To run the tests:
 
 - [x] In the package.json, modify the 'test' script into 'jest':
 
@@ -45,9 +51,13 @@ const { sum, fromEuroToDollar, fromDollarToJapanYen, fromYenToPounds } = require
 
 👉 If you seem to have problems during the process, reinstall NODE with the latest recommended version. This happened to me that it didn't work at the beginning and after reinstalling it, it worked.
 
+---
+
 ### I used this api for some tests:
 
 https://jsonplaceholder.typicode.com/
+
+---
 
 ### If you just want to run the .js files:
 
@@ -55,7 +65,9 @@ https://jsonplaceholder.typicode.com/
 
 - [x] `nodemon index.js`
 
-🔹 ## Why use Unit Testing?
+---
+
+## 🔹 Why use Unit Testing?
 
 Unit testing is an important practice in software development for several reasons:
 
@@ -69,7 +81,9 @@ Unit testing is an important practice in software development for several reason
 
 - `Enabling collaboration`: Unit tests serve as a `form of documentation` and specification for the expected behavior of the code. They make it easier for multiple developers to collaborate on a codebase by providing clear expectations of how different parts of the code should work.
 
-🔹 ## Why use Jest?
+---
+
+## 🔹 Why use Jest?
 
 Jest is a popular JavaScript testing framework that is widely used for unit testing. Here are some reasons why Jest is a popular choice for unit testing:
 
